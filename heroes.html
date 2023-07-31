@@ -5,6 +5,11 @@
     <title>Superheroes</title>
     <link rel="stylesheet" type="text/css" href="styles/heroes-styles.css" />
     <script>
+
+        function changeStyle() {
+            console.log("testing exec of changeStyle");
+            document.getElementById('special-header').className = 'changed-style';
+        }
         const changeText = function () {
             console.log("testing exec of changeText");
             document.getElementById('SuperPerson').textContent = 'A Super Person';
